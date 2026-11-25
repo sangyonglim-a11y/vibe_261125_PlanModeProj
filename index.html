@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>꾸비 — 꾸준함이 비범함을 만든다</title>
+    <meta
+      name="description"
+      content="AI 활용이 막막한 직장인에게 실무에 바로 적용 가능한 AI 협업 방법을 전합니다. 꾸비와 커피챗하세요."
+    />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-label="꾸비 소개">
+        <div class="hero__visual" aria-hidden="true">
+          <span class="blob blob--a"></span>
+          <span class="blob blob--b"></span>
+          <span class="blob blob--c"></span>
+          <span class="hero__glow"></span>
+        </div>
+
+        <div class="hero__content">
+          <p class="hero__brand">꾸비</p>
+          <p class="hero__slogan">꾸준함이 비범함을 만든다</p>
+          <h1 class="hero__lead">
+            AI가 막막한 직장인에게,<br />
+            실무에 바로 쓰는 AI 협업으로<br />
+            생산성과 창의적 일의 즐거움을
+          </h1>
+          <div class="hero__cta">
+            <!-- 구글 폼 URL은 js/main.js의 COFFEECHAT_URL만 바꾸면 됩니다 -->
+            <a class="btn btn--primary js-coffeechat" href="#coffeechat"
+              >커피챗 신청</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="topics" aria-labelledby="topics-heading">
+        <header class="section-head reveal">
+          <h2 id="topics-heading">함께 다루는 이야기</h2>
+          <p>실무에 바로 꽂히는 AI 협업, 세 가지 축으로 풀어갑니다.</p>
+        </header>
+
+        <ol class="topic-list">
+          <li class="topic reveal">
+            <span class="topic__num" aria-hidden="true">01</span>
+            <h3 class="topic__title">AI 워크 스마트</h3>
+            <p class="topic__desc">실전 AI 활용법 &amp; 성공 사례</p>
+          </li>
+          <li class="topic reveal">
+            <span class="topic__num" aria-hidden="true">02</span>
+            <h3 class="topic__title">AI 동료 만들기</h3>
+            <p class="topic__desc">No-code / Low-code 업무 자동화</p>
+          </li>
+          <li class="topic reveal">
+            <span class="topic__num" aria-hidden="true">03</span>
+            <h3 class="topic__title">AI로 데이터 인사이트 발견</h3>
+            <p class="topic__desc">데이터 분석 &amp; 시각화</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="closing reveal" id="coffeechat" aria-labelledby="closing-heading">
+        <h2 id="closing-heading">커피 한잔하며 이야기해요</h2>
+        <p>업무에 AI를 어떻게 들이면 좋을지, 가볍게 나눠 보세요.</p>
+        <a class="btn btn--primary js-coffeechat" href="#coffeechat"
+          >커피챗 신청</a
+        >
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="site-footer__brand">꾸비</p>
+      <p class="site-footer__slogan">꾸준함이 비범함을 만든다</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
